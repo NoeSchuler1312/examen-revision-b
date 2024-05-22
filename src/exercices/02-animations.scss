@@ -7,6 +7,22 @@
     border-radius: 5px;
     color: #003566;
     box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    animation: Shadow 1.5s infinite;
+  }
+
+  @keyframes Shadow {
+    0% {
+      box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    }
+    50% {
+      box-shadow: 0px 0px 4px 6px rgba(#003566, 0.25);
+    }
+    57% {
+      box-shadow: 0px 0px 4px 6px rgba(#003566, 0.25);
+    }
+    100% {
+      box-shadow: 0px 0px 4px 0px rgba(#003566, 0.25);
+    }
   }
 
   .loader {
@@ -18,5 +34,21 @@
     background: #ffbe0b;
     border-radius: 50px;
     color: #fff;
+    animation: Color 9s infinite;
+  }
+
+  @keyframes Color {
+    0% {
+      background: #ffbe0b;
+    }
+    33% {
+      background: #ff006e;
+    }
+    66% {
+      background: #8338ec;
+    }
+    100% {
+      background: #ffbe0b;
+    }
   }
 }
