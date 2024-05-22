@@ -3,12 +3,17 @@
   padding: 20px;
   display: inline-flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   background: #dde5b6;
   font-size: 18px;
 }
 
 .list-add {
+  position: absolute;
+  left: 190px;
+  top: 1690px;
   width: 30px;
   height: 30px;
   display: flex;
@@ -21,7 +26,8 @@
 }
 
 .list-overlay {
-  padding: 10px;
+  position: absolute;
+  padding: 10px 21px 100px 21px;
   background: rgba(#6c584c, 0.5);
   backdrop-filter: blur(2px);
   color: #fff;
